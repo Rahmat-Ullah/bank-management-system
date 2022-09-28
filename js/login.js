@@ -14,9 +14,9 @@ document.getElementById('btn-submit').addEventListener('click', function(){
 
     //step 4. varify email and password and check whether valid user or invalid user
     if(email === 'rahmatbd1533@gmail.com' && password === 'secret'){
-        console.log('valid user');
+        window.location.href = 'bank.html';
     }
     else{
-        console.log('invalid user');
+        alert('invalid user')
     }
 })
